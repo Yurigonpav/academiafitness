@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Academia Fitness</title>
+</head>
+<body>
+  <header>
+    <h1>Academia Fitness</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html"><u>Home</u></a></li>
+        <li><a href="sobre.html">Sobre Nós</a></li>
+        <li><a href="contato.html">Contato</a></li>
+        <li><a href="planos.html">Planos</a></li>
+        <li><a href="calculadora.html">Calculadora(MB)</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Bem-vindo à Academia Fitness</h2>
+    <p>Transforme sua saúde e alcance seus objetivos de fitness conosco.</p>
+  </section>
+
+  <section class="services">
+    <h2>Nossos Serviços</h2>
+    <ul>
+      <li>Treinamento Personalizado</li>
+      <li>Aulas em Grupo</li>
+      <li>Equipamentos Modernos</li>
+      <li>Acompanhamento Nutricional</li>
+    </ul>
+  </section>
+<section class="schedule">
+    <h2>Agenda de Aulas</h2>
+    <p>Confira nossa programação semanal de aulas.</p>
+    <table>
+      <thead>
+        <tr>
+          <th>Horário</th>
+          <th>Instrutor</th>
+          <th>Tipo de Aula</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Segunda-feira 18:00</td>
+          <td>Joana Silva</td>
+          <td>Yoga</td>
+        </tr>
+        <tr>
+          <td>Terça-feira 10:00</td>
+          <td>Carlos Mendes</td>
+          <td>Zumba</td>
+        </tr>
+        <tr>
+          <td>Quarta-feira 15:30</td>
+          <td>Maria Oliveira</td>
+          <td>Pilates</td>
+        </tr>
+        <tr>
+          <td>Quinta-feira 19:00</td>
+          <td>Ricardo Santos</td>
+          <td>Spinning</td>
+        </tr>
+        <tr>
+          <td>Sexta-feira 14:00</td>
+          <td>Ana Rodrigues</td>
+          <td>Funcional</td>
+        </tr>
+        <tr>
+          <td>Sábado 11:00</td>
+          <td>Fernando Costa</td>
+          <td>Musculação</td>
+        </tr>
+        <tr>
+          <td>Domingo 09:30</td>
+          <td>Lúcia Pereira</td>
+          <td>Aeróbica</td>
+        </tr>
+        <tr>
+          <td>Segunda-feira 20:30</td>
+          <td>Paulo Oliveira</td>
+          <td>Boxe</td>
+        </tr>
+        <tr>
+          <td>Quarta-feira 12:45</td>
+          <td>Sandra Lima</td>
+          <td>Alongamento</td>
+        </tr>
+        <tr>
+          <td>Quinta-feira 17:30</td>
+          <td>Antônio Sousa</td>
+          <td>CrossFit</td>
+        </tr>
+      </tbody>
+    </table>
+    
+  </section>
+  <section class="bmi-calculator">
+    <h2>Calculadora de IMC</h2>
+    <p>Avalie sua composição corporal calculando o Índice de Massa Corporal (IMC).</p>
+    <form id="bmiForm">
+      <label for="height">Altura (cm):</label>
+      <input type="number" id="height" name="height" required>
+  
+      <label for="weight">Peso (kg):</label>
+      <input type="number" id="weight" name="weight" required>
+  
+      <button type="button" onclick="calculateBMI()">Calcular IMC</button>
+    </form>
+    <div id="result"></div>
+    <div id="result">
+        <table id="result-table"></table>
+      </div>
+  </section>
+  
+  <footer>
+    <p>&copy; 2023 Academia Fitness. Todos os direitos reservados.</p>
+    <p>Link de contato rápido: <a href="https://w.app/EbTUjs" target="_blank">https://w.app/EbTUjs</a></p>
+  </footer>
+</body>
+<script src="script.js"></script>
+</html>

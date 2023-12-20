@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Planos da Academia fitness</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Academia Fitness</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="sobre.html">Sobre Nós</a></li>
+        <li><a href="contato.html">Contato</a></li>
+        <li><a href="planos.html"><u>Planos</u></a></li>
+        <li><a href="calculadora.html">Calculadora(MB)</a></li>
+      </ul>
+    </nav>
+  </header>
+
+<section class="training-plans">
+  <h2>Planos de Academia</h2>
+
+  <div class="plans-container">
+    <div class="plan">
+      <div class="plan-details">
+        <h3>PLANO padrão</h3>
+        <p>R$119,90* - Mensais</p>
+        <p>Confira taxas de matrícula e manutenção na unidade de interesse</p>
+        <p>Sem multas ou taxas de cancelamento</p>
+        <p>Acesso a todas as aulas coletivas</p>
+        <p>Acesso total a estrutura da academia</p>
+        <p>Sem restrição de horários</p>
+        <p>Leve 2 amigos para treinar</p>
+        <button onclick="matricular()">MATRICULE-SE</button>
+      </div>
+    </div>
+
+
+  <div class="plan">
+    <div class="plan-details">
+      <h3>PLANO GOLD PRO</h3>
+      <p>R$129,90* - Mensais</p>
+      <p>Treino em todas as Unidades Bluefit</p>
+      <p>Sem taxas de matrícula ou manutenção</p>
+      <p>12 meses de fidelidade</p>
+      <p>Acesso a todas as aulas coletivas</p>
+      <p>Acesso total a estrutura da academia</p>
+      <p>Sem restrição de horários</p>
+      <p>Leve até 5 amigos para treinar</p>
+      <button onclick="matricular()">MATRICULE-SE</button>
+    </div>
+  </div>
+
+  <div class="plan">
+    <div class="plan-details">
+      <h3>PLANO GOLD PREMIUM</h3>
+      <p>R$149,90* - Mensais</p>
+      <p>Treino em todas as Unidades Bluefit</p>
+      <p>Sem taxas de matrícula ou manutenção</p>
+      <p>Acesso a todas as aulas coletivas</p>
+      <p>Sem multas ou taxas de cancelamento</p>
+      <p>Acesso total a estrutura da academia</p>
+      <p>Sem restrição de horários</p>
+      <p>Leve até 5 amigos para treinar</p>
+      <button onclick="matricular()">MATRICULE-SE</button>
+    </div>
+  </div>
+
+  <div class="plan">
+    <div class="plan-details">
+      <h3>PLANO GOLD SELECT</h3>
+      <p>R$189,90* - Mensais</p>
+      <p>Treino em todas as Unidades</p>
+      <p>Acesso a todas as aulas coletivas</p>
+      <p>Sem multas ou taxas de cancelamento</p>
+      <p>Acesso total a estrutura da academia</p>
+      <p>Sem restrição de horários</p>
+      <p>Taxa zero</p>
+      <p>Leve até 5 amigos para treinar</p>
+      <button onclick="matricular()">MATRICULE-SE</button>
+    </div>
+  </div>
+
+</section>
+<section class="motivational-section">
+    <h2>Nunca Desista, começe agora a sua jornada!</h2>
+    <p id="motivationalPhrase"></p>
+    <img id="motivationalImage" src="img.png" alt="Imagem Motivacional" onload="generateMotivationalPhrase()">
+    
+  </section>
+
+<script src="script.js"></script>
+<footer>
+  <p>&copy; 2023 Academia Fitness. Todos os direitos reservados.</p>
+  <p>Link de contato rápido: <a href="https://w.app/EbTUjs" target="_blank">https://w.app/EbTUjs</a></p>
+</footer>
+</body>
+</html>

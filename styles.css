@@ -1,0 +1,209 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  section {
+    padding: 20px;
+  }
+  
+  .hero {
+    background-color: #ecf0f1;
+  }
+  
+  .services ul {
+    list-style: none;
+
+  }
+  
+  footer {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  .schedule {
+    padding: 20px;
+    background-color: #ecf0f1;
+  }
+  
+  .schedule h2 {
+    color: #3498db;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+  }
+  
+  th, td {
+    border: 1px solid #bdc3c7;
+    padding: 10px;
+    text-align: left;
+  }
+
+  #manu{
+    position: absolute;
+	float: left; 
+    top: 260px;
+    left: 800px;
+  }
+  
+  th {
+    background-color: #3498db;
+    color: #fff;
+  }
+.bmi-calculator {
+    padding: 20px;
+    background-color: #ecf0f1;
+  }
+  
+  .bmi-calculator h2 {
+    color: #3498db;
+  }
+  
+  form {
+    margin-top: 15px;
+  }
+  
+  label, input, button {
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #result {
+    margin-top: 15px;
+    font-weight: bold;
+  }
+.training-plans {
+    padding: 20px;
+    background-color: #ecf0f1;
+  }
+  
+  .training-plans h2 {
+    color: #3498db;
+  }
+  
+  .plans-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .plan {
+    width: calc(25% - 20px);
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid #ecf0f1;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .plan:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .plan-details {
+    padding: 20px;
+  }
+  
+  .plan h3 {
+    color: #3498db;
+  }
+  
+  .plan p {
+    margin-bottom: 10px;
+  }
+  
+  .plan button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+.motivational-section {
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .motivational-section h2 {
+    color: #3498db;
+  }
+  
+  #motivationalImage {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-top: 10px;
+    box-shadow: 0 0 10px rgb(0, 140, 255);
+  }
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  header {
+    animation: fadeIn 1s ease-in-out;
+  }
+  header {
+    background-color: #3498db;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+
+  h1 {
+    margin: 0;
+  }
+
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  nav li {
+    margin: 0 15px;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: white;
+  }
